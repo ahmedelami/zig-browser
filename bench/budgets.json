@@ -1,0 +1,6 @@
+{
+  "ipc_listen_ready_us_p95_max": 2000000,
+  "all_children_connected_us_p95_max": 15000000,
+  "children_exited_us_p95_max": 20000000,
+  "ui_first_present_submitted_us_p95_max": 1000000
+}

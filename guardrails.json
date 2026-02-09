@@ -1,0 +1,20 @@
+{
+  "defaults": {
+    "max_bytes": 65536,
+    "max_lines": 600,
+    "max_pub_decls": 80,
+    "max_imports": 25
+  },
+  "overrides": [
+    {
+      "path": "src/net/tls/client.zig",
+      "max_bytes": 131072,
+      "max_lines": 2200
+    }
+  ],
+  "ignore_prefixes": [
+    "zig-out/",
+    ".zig-cache/",
+    "run/"
+  ]
+}
