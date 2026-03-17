@@ -2,6 +2,16 @@
 
 Goal: a modern desktop web browser built **from scratch in Zig**, optimized for “instant” UX end-to-end.
 
+## Project status and potential
+
+Current state:
+- Multi-process browser skeleton in Zig (`browser`, `net`, `renderer`, `gpu`).
+- Working developer workflow for running, benchmarking, inspection, and guardrails.
+
+Potential assessment:
+- **High (8/10)** based on architecture direction and existing tooling foundation.
+- Expected upside depends on sustained progress in web standards coverage, rendering quality, and performance milestones.
+
 Project plan: `plan_progress.md`
 
 ## Quick start (macOS)
